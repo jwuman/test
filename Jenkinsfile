@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'jwuman/rancher-cicd'
+      image 'jwuman/simple-web'
     }
     
   }
